@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Barbara McClintock"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Research Focus"
+        href: research_focus.qmd
+      - text: "Portfolio"
+        href: portfolio.qmd
+    right:
+      - icon: github
+        href: https://github.com/
+        aria-label: GitHub
+
+format:
+  html:
+    theme: cosmo
+    toc: true
